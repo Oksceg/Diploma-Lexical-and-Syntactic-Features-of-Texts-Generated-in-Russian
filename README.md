@@ -1,8 +1,5 @@
 # ЛЕКСИЧЕСКИЕ И СИНТАКСИЧЕСКИЕ ХАРАКТЕРИСТИКИ ТЕКСТОВ, СГЕНЕРИРОВАННЫХ НА РУССКОМ ЯЗЫКЕ
 
-Что добавить
-- добавить список параметров
-
 ## Аннотация
 
 Данная работа посвящена выявлению лексических и синтаксических характеристик сгенерированных русскоязычных текстов. Актуальность исследования обусловлена широким использованием нейросетевого контента и недостатком работ для русского языка, учитывающих разные модели, жанры и промпты. Материалом послужил датасет LLMTRACE [Tolstykh и др., 2025], включающий 8 жанров, более 20 моделей и 4 типа промптов. С помощью Python-библиотек TextDescriptives и spacy удалось вычислить широкий спектр показателей: частеречные доли, длину слов и предложений, количество слогов, связность текста и др. 
@@ -14,10 +11,10 @@
 
 ## Приложение к работе
 В репозитории представлены следуюшие материалы, которые можно как скачать из репозитория, так и посмотреть в Google Таблицах:
-- характеристики_среднее значение.xlsx — средние показатели текстов по всему корпусу, отдельным моделям, жанрам и типам промптов
-- таблицы models_spearman.xlsx и genres_spearman.xlsx — коэффициенты корреляции Спирмена по всем показателям
-- таблицы models_pearson.xlsx и genres_pearson.xlsx — коэффициенты корреляции Пирсона по всем показателям
+- [характеристики_среднее значение.xlsx](https://docs.google.com/spreadsheets/d/1fvrj80GVQCnuWf49u-OWWi6pDomoDyeqJ0ws5frHQrQ/edit?usp=sharing) — средние показатели текстов по всему корпусу, отдельным моделям, жанрам и типам промптов
+- таблицы [models_spearman.xlsx](https://docs.google.com/spreadsheets/d/1204SsDb8sBnBip8aituD5GysYG11lT0QFNkUEKOM_p4/edit?usp=sharing) и [genres_spearman.xlsx](https://docs.google.com/spreadsheets/d/1aYRKFMjUUzZFWusEYk94RwB9xmXz94qhv42eaqT2vrQ/edit?usp=sharing) — коэффициенты корреляции Спирмена по всем показателям
+- таблицы [models_pearson.xlsx](https://docs.google.com/spreadsheets/d/1a4btd9xfPxocnr_yybmyCrOtL33OEwLwIkOq7zYQW2Y/edit?usp=sharing) и [genres_pearson.xlsx](https://docs.google.com/spreadsheets/d/1ne0rdD4Ua3Y_TG462QoSU4BCgAVLu3VIvF7lEvDvl4o/edit?usp=sharing) — коэффициенты корреляции Пирсона по всем показателям
 
 Дополнительные наработки из главы "Обсуждение":
 
-- deps_genres.xlsx — топы последовательностей из 5 синтаксических ролей в жанрах
+- [deps_genres.xlsx](https://docs.google.com/spreadsheets/d/136HCLHxiT4RAYKkf04TPWpmgOYurrti5MDpQY9Krrao/edit?usp=sharing) — топы последовательностей из 5 синтаксических ролей в жанрах
